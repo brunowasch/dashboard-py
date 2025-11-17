@@ -79,5 +79,3 @@ Fonte do dataset: [https://www.kaggle.com/datasets/unsdsn/world-happiness](https
 ---
 
 Este trabalho foi desenvolvido para a disciplina de **Programação II** da **Escola Técnica Estadual Monteiro Lobato (CIMOL)**. Todos os direitos reservados.
-
-""")
