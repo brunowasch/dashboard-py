@@ -1,10 +1,3 @@
-import streamlit as st
-
-st.set_page_config(page_title="README do Projeto", layout="wide")
-
-st.title("📘 README – Felicidade Mundial: Dashboard Interativo")
-
-st.markdown("""
 # 🌍 Felicidade Mundial: Dashboard Interativo com Streamlit ⭐
 
 Este projeto consiste em um dashboard interativo **desenvolvido com Streamlit**, cujo objetivo é explorar visualmente dados associados ao World Happiness Report. 
