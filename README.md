@@ -12,7 +12,30 @@ Criar uma ferramenta interativa que ajude na descoberta de padrões e relações
 - Felicidade em função de PIB e Apoio Social;
 - Distribuição da felicidade em 2019.
 
+---
 
+## 🧭 Como Navegar Entre as Seções
+A navegação é feita pelo menu lateral (sidebar).  
+Cada página representa um tipo de análise:
+- **Visão Geral**: mostra estatísticas iniciais e informações gerais do dataset.  
+- **Fatores da Felicidade**: analisa indicadores como PIB, apoio social e liberdade.  
+- **Comparar Países**: permite comparar a evolução da felicidade entre diferentes países ao longo dos anos.  
+
+Basta clicar no nome da página para alternar entre as seções.
+
+---
+
+## 🎚️ Como os Filtros Influenciam os Dados
+Os filtros localizados na **sidebar** permitem ajustar dinamicamente o que aparece nos gráficos.  
+Ao alterar um filtro:
+- os gráficos mudam automaticamente,  
+- apenas os países selecionados são exibidos,  
+- é possível escolher anos ou fatores específicos,  
+- os insights se tornam mais personalizados.  
+
+Os filtros servem para refinar a análise conforme o interesse do usuário.
+
+---
 ## 📁 Estrutura do Projeto
 ```
 📂 Trabalho-Dashboard/
@@ -32,7 +55,7 @@ Criar uma ferramenta interativa que ajude na descoberta de padrões e relações
 ├── requirements.txt                 # Dependências do projeto
 └── README.md                        # Documentação do projeto
 ```
-
+---
 ## 🚀 Como Executar o Projeto
 
 ### 1️⃣ Instalar dependências:
@@ -48,7 +71,7 @@ ou execute:
 ```bash
 python -m streamlit run 🏠_Home.py
 ```
-
+---
 ## 📚 Dataset Utilizado
 O conjunto de dados foi retirado do Kaggle, permitindo analisar fatores associados à felicidade global.
 Fonte do dataset: [https://www.kaggle.com/datasets/unsdsn/world-happiness](https://www.kaggle.com/datasets/unsdsn/world-happiness)
