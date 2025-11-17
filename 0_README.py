@@ -45,7 +45,7 @@ Os filtros servem para refinar a análise conforme o interesse do usuário.
 ---
 ## 📁 Estrutura do Projeto
 ```
-📂 Trabalho-Dashboard/
+📂 dashboard-py/
 │
 ├── 📁 __pycache__/
 │   └── data_utils.cpython-313.pyc
