@@ -1,3 +1,10 @@
+import streamlit as st
+
+st.set_page_config(page_title="README do Projeto", layout="wide")
+
+st.title("📘 README – Felicidade Mundial: Dashboard Interativo")
+
+st.markdown("""
 # 🌍 Felicidade Mundial: Dashboard Interativo com Streamlit ⭐
 
 Este projeto consiste em um dashboard interativo **desenvolvido com Streamlit**, cujo objetivo é explorar visualmente dados associados ao World Happiness Report. 
@@ -38,7 +45,7 @@ Os filtros servem para refinar a análise conforme o interesse do usuário.
 ---
 ## 📁 Estrutura do Projeto
 ```
-📂 Trabalho-Dashboard/
+📂 dashboard-py/
 │
 ├── 📁 __pycache__/
 │   └── data_utils.cpython-313.pyc
@@ -79,3 +86,5 @@ Fonte do dataset: [https://www.kaggle.com/datasets/unsdsn/world-happiness](https
 ---
 
 Este trabalho foi desenvolvido para a disciplina de **Programação II** da **Escola Técnica Estadual Monteiro Lobato (CIMOL)**. Todos os direitos reservados.
+
+""")
